@@ -8,7 +8,7 @@ vcc 0.3.0
 Python 3.13.3 (Windows-11)                                                                                              
 build: release · endpoint: https://virtualcellchallenge.org                                                             
 PS C:\Users\Erin> `cd "E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final"  `                         
-PS E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final> `uvx --from vcc-cli vcc prep ".\KOLF_V4_prediction.h5ad" `                                                                                                            
+PS E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final> `uvx --from vcc-cli vcc prep ".\KOLF_V4_prediction.h5ad" `  `                                                                                                          
 >>   -g ".\gene_names.csv" `                                                                                            
 >>   --perts ".\pert_counts.csv" `                                                                                      
 >>   -o ".\KOLF_V4_prediction.vcc" `                                                                                    
@@ -34,7 +34,7 @@ PS E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final> `uvx 
   panel:    vcc2026-test-1                                                                                              
   deadline: Nov 05 23:59 UTC                                                                                            
   status:   ready to submit                                                                                             
-PS E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final> `uvx --from vcc-cli vcc submit ".\KOLF_V4_prediction.vcc" `                                                                                                           
+PS E:\VSCODE\Virtual Cell Challenge\Original_data\vcc_2026_controls_final> `uvx --from vcc-cli vcc submit ".\KOLF_V4_prediction.vcc" ` `                                                                                                          
 >>   -m "PrePR-CT V4 KOLF delta" `                                                                                      
 >>   --wait                                                                                                             
 → checking your team's daily submission allowance …                                                                     
